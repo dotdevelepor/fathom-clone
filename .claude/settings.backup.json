@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "prompt": "node .claude/capture.js prompt",
+    "end-of-turn": "node .claude/capture.js end-of-turn"
+  }
+}
